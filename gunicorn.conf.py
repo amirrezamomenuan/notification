@@ -1,7 +1,7 @@
 import os
 
 workers_per_core = 1
-threads_per_worker = 10
+threads_per_worker = 100
 
 worker_class = "uvicorn.workers.UvicornWorker"
 
